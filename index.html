@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="img-mobile" alt="header image" src="assets/images/illustration-sign-up-mobile.svg">
+        <img class="img-desktop" alt="header image desktop" src="assets/images/illustration-sign-up-desktop.svg">
+    </header>
+
+    <main>
+        <h1>Stay updated!</h1>
+
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <div class="point1">
+            <img alt="Icon List" src="assets/images/icon-list.svg">
+            <p>Product discovery and building what matters</p>
+        </div>
+
+        <div class="point2">
+            <img alt="Icon List" src="assets/images/icon-list.svg">
+            <p>Measuring to ensure updates are a success</p>
+        </div>
+
+        <div class="point3">
+            <img alt="Icon List" src="assets/images/icon-list.svg">
+            <p>And much more!</p>
+        </div>
+
+        <form>
+            <label for="email">Email address <span class="error">Valid Email Required</span></label>
+            <input type="email" id="email" class="input-email" placeholder="email@company.com">
+            <button class="btn">Subscribe to monthly newsletter</button>
+        </form>
+
+        <!-- Sezione Dopo invio -->
+
+        <img src="/assets/images/icon-success.svg" alt="Subscribed" class="sub-img hidden">
+
+        <h1 class="thanks hidden">Thanks for subscribing!</h1>
+
+        <p class="thanks-message hidden">A confirmation email has been sent to <span class="email-submitted"></span>.
+            Please open it and click the button inside to confirm your subscription.
+            
+        </p>
+
+        <button class="dismiss hidden">Dismiss message</button>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
